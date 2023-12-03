@@ -1,0 +1,58 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+
+.landing 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-estilo-degradado_52683-61751.jpg?w=740&t=st=1681572191~exp=1681572791~hmac=69ac18cd1e904461af2f7d632c454694ec238051c3b1cc488d55534f7bdfadf4);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Logo LCF */
+.logo
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/* Titulo LIGA CORRENTINA DE FUTBOL */
+.titulo
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    width: 200px;
+}
+
+/* MQ para el contenido */
+@media (max-width: 576px) {
+    .logo {
+        display: block;
+        text-align: center;
+        zoom: 80%;
+    }
+}
+
+/* Clase del boton Ingresar al sitio */
+.btn_ingresar
+{
+    text-align: center;
+}
+
+/* Animacion para boton ingresar al sitio */
+.btn:hover
+{
+    background-color: red;
+}

@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        border-bottom: 1px solid white;
+}
+
+
+/* Background de navbar */
+.navbar {
+    background: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-estilo-degradado_52683-61751.jpg?w=740&t=st=1681572191~exp=1681572791~hmac=69ac18cd1e904461af2f7d632c454694ec238051c3b1cc488d55534f7bdfadf4);
+    background-size: cover;
+    background-position: 100%;
+}
+
+/* Logo LCF */
+.logo_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+}
+
+/* Titulo "Liga Correntina" del Logo */
+.titulo_menu {
+    display: block;
+    width: 90px;
+    font-size: 16px;
+    color: aliceblue;
+
+}
+
+/* Redimensionar el icono hamburguesa */
+.navbar-toggler {
+    zoom: 80%;
+    background-color: aliceblue;
+}
+
+.navbar-brand {
+    color: rgb(247, 247, 247);
+}
+
+.navbar-brand:hover {
+    color: yellow;
+}
+
+main 
+{
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a43d2cc-ab3b-4345-9c26-6b6d4b3cf994/d69rp0f-0652780d-3395-44a3-9ce8-4282b8e0b413.png/v1/fill/w_1024,h_576,q_80,strp/football_background__1_by_destroyer53_d69rp0f-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvN2E0M2QyY2MtYWIzYi00MzQ1LTljMjYtNmI2ZDRiM2NmOTk0XC9kNjlycDBmLTA2NTI3ODBkLTMzOTUtNDRhMy05Y2U4LTQyODJiOGUwYjQxMy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.UvqE1Xu4a_QSno1oApepMMJNJSQFzun3eB-LWnSL_aA);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Tabla de posiciones */
+.tablas_posiciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.escudo_logo {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+.fila {
+    width: 152px;
+    line-height: 30px;
+}
+
+table
+{
+    background-color: beige;
+}
+
+td,
+th {
+    width: 50px;
+    border: 1px solid;  
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#programacion 
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url(https://img.freepik.com/premium-vector/football-soccer-background-with-big-ball-green-colors_444390-10200.jpg?w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Programacion */
+.programacion_partidos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.partidos {
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-basis: 100px;
+    width: 470px;
+    padding-bottom: 10px;
+}
+
+.titulo_cancha {
+    display: flex;
+    background-color: rgb(232, 232, 243);
+    color: red;
+    justify-content: space-around;
+    border: 1px solid;
+    width: 100%;
+}
+
+.programacion_categoria,
+.progromacion_hora {
+    font-size: 17px;
+    width: 70px;
+    text-align: center;
+}
+
+.nombre_logo_izq,
+.nombre_logo_der,
+.escudo_logo_izq,
+.escudo_logo_der {
+    font-size: 17px;
+    margin-left: 15px;
+    width: 100px;
+}
+
+.escudo_logo_izq,
+.escudo_logo_der {
+    width: 22px;
+    height: 22px;
+}
+
+.btn_volver
+{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* MQ para el contenido de los ID posiciones y programacion */
+@media (max-width: 576px) 
+{
+    #posiciones, #programacion
+    {
+        zoom: 90%;
+    }
+}
+
+/* Footer */
+footer
+{
+    display: block;
+    background: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-estilo-degradado_52683-61751.jpg?w=740&t=st=1681572191~exp=1681572791~hmac=69ac18cd1e904461af2f7d632c454694ec238051c3b1cc488d55534f7bdfadf4);
+    padding-bottom: 10px;
+}
+
+.titulo_redes {
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+}
+
+.redes_footer {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.redes-icon a {
+    padding-right: 15px;
+}

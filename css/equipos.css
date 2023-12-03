@@ -1,0 +1,127 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* Background de navbar */
+nav {
+    background: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-estilo-degradado_52683-61751.jpg?w=740&t=st=1681572191~exp=1681572791~hmac=69ac18cd1e904461af2f7d632c454694ec238051c3b1cc488d55534f7bdfadf4);
+    background-size: cover;
+    background-position: 100%;
+}
+
+/* Logo LCF */
+.logo_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+}
+
+/* Titulo "Liga Correntina" del Logo */
+.titulo_menu {
+    display: block;
+    width: 90px;
+    font-size: 16px;
+    color: aliceblue;
+
+}
+
+/* Redimensionar el icono hamburguesa */
+.navbar-toggler {
+    zoom: 80%;
+    background-color: aliceblue;
+}
+
+.navbar-brand {
+    color: rgb(247, 247, 247);
+}
+
+.navbar-brand:hover {
+    color: yellow;
+}
+
+/* Background Main */
+main
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: url(https://img.freepik.com/premium-vector/football-soccer-background-with-big-ball-green-colors_444390-10200.jpg?w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Titulo de cada diivison */
+.tiutlo_de_cada_division
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: rgb(22, 22, 145);
+    color: aliceblue;
+}
+
+/* Cards de los equipos */
+.card
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para la imagen de la card */
+.card-img-top
+{
+    width: 60%;
+    height: 60%;
+    opacity: 55%;
+    display: flex;
+    align-self: center;
+    padding-top: 10px;
+    &:hover
+    {
+        opacity: 100%;
+    }
+}
+
+/* Estilo para la imagen del footer del card */
+.card-footer
+{
+    background: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-estilo-degradado_52683-61751.jpg?w=740&t=st=1681572191~exp=1681572791~hmac=69ac18cd1e904461af2f7d632c454694ec238051c3b1cc488d55534f7bdfadf4);
+    background-size: cover;  
+}
+
+/* Efecto para el btn "Conocer más" */
+.btn:hover
+{
+    background-color: red;
+}
+
+
+/* Footer */
+footer
+{
+    display: block;
+    background: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-estilo-degradado_52683-61751.jpg?w=740&t=st=1681572191~exp=1681572791~hmac=69ac18cd1e904461af2f7d632c454694ec238051c3b1cc488d55534f7bdfadf4);
+    padding-bottom: 10px;
+}
+
+.titulo_redes
+{
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+}
+
+.redes_footer 
+{
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.redes-icon a 
+{
+    padding-right: 15px;
+}
